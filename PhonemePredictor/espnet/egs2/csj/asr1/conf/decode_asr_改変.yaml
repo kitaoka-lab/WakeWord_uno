@@ -1,0 +1,10 @@
+lm_weight: 0.9
+lm_add_weight: 0.8
+beam_size: 20
+penalty: 0.0
+maxlenratio: 0.0
+minlenratio: 0.0
+ctc_weight: 0.3
+ctc_add_acoustic_weight: 0.3
+#./run.sh --stage 11 --inference_args "--lm_weight 1.1 --lm_add_weight 1.1"
+
